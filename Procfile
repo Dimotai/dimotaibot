@@ -1,1 +1,1 @@
-worker: python run.bat
+worker: cmd run.bat
