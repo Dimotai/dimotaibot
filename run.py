@@ -333,7 +333,7 @@ def opt_check_disk_space(warnlimit_mb=200):
 
 #################################################
 
-def pyexec(pycom, *args, pycom2=None):
+def pyexec(pycom, *args, pycom3=None):
     pycom2 = pycom2 or pycom
     os.execlp(pycom, pycom2, *args)
 
